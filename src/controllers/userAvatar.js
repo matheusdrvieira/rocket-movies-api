@@ -1,7 +1,6 @@
 const knex = require("../database/knex");
 const AppError = require("../utils/appError");
 const diskStorage = require("../providers/diskStorage");
-const { use } = require("../routes/users");
 
 class userAvatar {
     async update(request, response) {
